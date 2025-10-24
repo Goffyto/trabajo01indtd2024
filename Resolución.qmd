@@ -64,7 +64,7 @@ tablita = as.data.frame(tablita)
 # Comprobamos
 tt(tablita, rownames = T)
 ```
-#Caso de beneficios
+# Caso de beneficios
 
 ### Criterio de Wald:
 
@@ -74,7 +74,7 @@ criterio.Wald(tablita)
 
 La decisión óptima en este caso es d2, con un valor de 50.
 
-###Criterio Maximax (optimista)
+### Criterio Maximax (optimista)
 
 ```{r}
 criterio.Optimista(tablita)
@@ -134,7 +134,7 @@ criterio.Wald(tablita,F)
 
 Las decisiones óptimas en este caso son d1 y d4, ambas con un valor de 85.
 
-###Criterio Maximax (optimista)
+### Criterio Maximax (optimista)
 
 ```{r}
 criterio.Optimista(tablita,F)
@@ -192,24 +192,24 @@ Vemos que la solución que más se repite es d1 en el caso de costes.
 
 El juego de cartas Magic:The Gathering ha anunciado una colaboación con Sonic The Hedgehog.
 David, que es muy fan de ambas marcas, quiere comprar uno de los Secret Lairs, pero no se decide por cual decantarse.Además, debe tener en cuenta las siguientes posibilidades:
-  Debido a la alta demanda, Wizard of the Coast no puede garantizar en que idioma llegarán los pedidos. Lo más probable es que lleguen en inglés, pero si fuera en español, el precio aumentaría debido a la exclusividad y demanda de cada set.
+Debido a la alta demanda, Wizard of the Coast no puede garantizar en que idioma llegarán los pedidos. Lo más probable es que lleguen en inglés, pero si fuera en español, el precio aumentaría debido a la exclusividad y demanda de cada set.
 Como el día de salida irá mucha gente a la tienda, es posible que vayan vendedores con mucho inventario, lo que le permitiría comprar además mejoras para el set que se compre.
 Como tiene que hacer la reserva por adelantado, debe decirle al dueño de la tienda que set va a reservar.Sus opciones son:
   
 Opción 1-Sonic:Friend and Foes
-Coste base:28
-Extra en español:7
-Mejoras:5
+Coste base:28€
+Extra en español:7€
+Mejoras:5€
 
 Opcion 2-Sonic:Chasing Adventures
-Coste base:22
-Extra en español:15
-Mejoras:8
+Coste base:22€
+Extra en español:15€
+Mejoras:8€
 
 Opcion 3-Sonic:Turbo Gear
-Coste base:24
-Extra en español:6
-Mejoras:12
+Coste base:24€
+Extra en español:6€
+Mejoras:12€
 
 Estados de la naturaleza:
   
